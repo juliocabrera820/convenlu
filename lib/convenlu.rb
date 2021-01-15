@@ -1,6 +1,7 @@
-require "convenlu/version"
+# frozen_string_literal: true
+
+require 'convenlu/version'
 
 module Convenlu
-  class Error < StandardError; end
-  # Your code goes here...
+  require 'convenlu/interface'
 end
