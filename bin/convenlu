@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'convenlu'
+Convenlu::Interface::start_prompt
