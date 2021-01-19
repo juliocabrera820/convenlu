@@ -26,7 +26,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 source "https://rubygems.pkg.github.com/juliocabrera820" do
-  gem "convenlu", "0.4.0"
+  gem "convenlu", "0.4.2"
 end
 ```
 
