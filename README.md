@@ -1,12 +1,10 @@
-# Convenlu
-
-To experiment with that code, run `bin/console` for an interactive prompt.
-
-# Ruby gem purpose
+[![Gem Version](https://badge.fury.io/rb/convenlu.svg)](https://badge.fury.io/rb/convenlu)
 
 Commit message will be formatted based on defined stantards
 
 ## Installation
+
+### rubygems
 
 Add this line to your application's Gemfile:
 
@@ -22,10 +20,24 @@ Or install it yourself as:
 
     $ gem install convenlu
 
+### github packages
+
+Add this line to your application's Gemfile:
+
+```ruby
+source "https://rubygems.pkg.github.com/juliocabrera820" do
+  gem "convenlu", "0.4.0"
+end
+```
+
+Or install it yourself as:
+
+    $ gem install convenlu --version "0.4.0" --source "https://rubygems.pkg.github.com/juliocabrera820"
+
 ## Usage
 
 * Add your files to the staging area by using `git add <FILE>`
-* write `convenlu` in your terminal
+*    $ convenlu
 
 ## Development
 
