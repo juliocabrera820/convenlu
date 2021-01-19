@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    convenlu (0.3.0)
-      tty-prompt
-      tty-spinner
+    convenlu (0.4.1)
+      tty-prompt (~> 0.23.0)
+      tty-spinner (~> 0.9.3)
 
 GEM
   remote: https://rubygems.org/
