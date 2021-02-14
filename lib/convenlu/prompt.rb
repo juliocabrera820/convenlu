@@ -2,20 +2,23 @@
 
 require 'tty-prompt'
 require 'convenlu/reader'
+require 'convenlu/repository'
 
 module Convenlu
   class Prompt
     def self.start
       prompt = TTY::Prompt.new
-      prompt.collect do
+      commit = prompt.collect do
         response_scope = prompt.yes?('do you want to add a scope?', default: false)
         key(:scope).ask('enter the commit scope') if response_scope
         key(:type).select('select the commit type', Reader.read_json)
         key(:title).ask('write a short title', required: true)
         key(:description).ask('provide a longer description', required: true)
-        response_footer = key(:footer).yes?('do you want to add a footer?', default: false)
+        response_footer = prompt.yes?('do you want to add a footer?', default: false)
         key(:footer).ask('write the commit footer', required: true) if response_footer
       end
+      @repo = Repository.new
+      @repo.create_commit(commit)
     end
   end
 end
