@@ -3,13 +3,13 @@
     "build": "changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)"
   },
   {
-    "chore": "cther changes that don't modify src or test files"
+    "chore": "other changes that don't modify src or test files"
   },
   {
     "ci": "changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)"
   },
   {
-    "docs": "cocumentation only changes"
+    "docs": "documentation only changes"
   },
   {
     "feat": "a new feature"
