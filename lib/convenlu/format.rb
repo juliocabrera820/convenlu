@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 module Convenlu
   class Format
     def self.to_plain_text(commit)
