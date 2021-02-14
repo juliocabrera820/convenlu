@@ -6,8 +6,8 @@ require 'convenlu/version'
 Gem::Specification.new do |spec|
   spec.name          = 'convenlu'
   spec.version       = Convenlu::VERSION
-  spec.authors       = ['julio cabrera']
-  spec.email         = ['juliocabrera820@gmail.com']
+  spec.authors       = ['julio cabrera', 'eusebio ajas']
+  spec.email         = ['juliocabrera820@gmail.com', 'eusebioajas6@gmail.com']
   spec.summary       = %q(A ruby gem that helps to write conventional commits)
   spec.description   = %q(Commit message will be formatted based on defined stantards)
   spec.homepage      = "https://github.com/juliocabrera820/convenlu"
