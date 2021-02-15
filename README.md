@@ -1,4 +1,10 @@
 [![Gem Version](https://badge.fury.io/rb/convenlu.svg)](https://badge.fury.io/rb/convenlu)
+[![License](https://img.shields.io/github/license/juliocabrera820/convenlu?color=233D3D4&style=flat)](https://opensource.org/licenses/MIT)
+[![Author](https://img.shields.io/badge/author-juliocabrera820-3D3D4D?color=233D3D4&style=flat)](https://github.com/juliocabrera820)
+[![Languages](https://img.shields.io/github/languages/count/juliocabrera820/convenlu?color=%233D3D4D&style=flat)](#)
+[![Stars](https://img.shields.io/github/stars/juliocabrera820/convenlu?color=233D3D4&style=flat)](https://github.com/juliocabrera820/convenlu/stargazers)
+[![Forks](https://img.shields.io/github/forks/juliocabrera820/convenlu?color=233D3D4&style=flat)](https://github.com/juliocabrera820/convenlu/network/members)
+[![Contributors](https://img.shields.io/github/contributors/juliocabrera820/convenlu?color=233D3D4&style=flat)](https://github.com/juliocabrera820/convenlu/graphs/contributors)
 
 Commit message will be formatted based on defined stantards
 
@@ -38,6 +44,10 @@ Or install it yourself as:
 
 * Add your files to the staging area by using `git add <FILE>`
 *    $ convenlu
+
+<p align="left"> 
+    <img src=".github/docs/images/convenlu.gif" width="650"/>
+</p>
 
 ## Development
 
