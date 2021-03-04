@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    convenlu (0.5.0)
+    convenlu (0.5.1)
       git (~> 1.8.1)
       tty-prompt (~> 0.23.0)
       tty-spinner (~> 0.9.3)
