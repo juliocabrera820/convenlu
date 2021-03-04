@@ -22,7 +22,7 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Or install it globally as:
 
     $ gem install convenlu
 
@@ -32,13 +32,13 @@ Add this line to your application's Gemfile:
 
 ```ruby
 source "https://rubygems.pkg.github.com/juliocabrera820" do
-  gem "convenlu", "0.5.0"
+  gem "convenlu", "0.5.1"
 end
 ```
 
 Or install it yourself as:
 
-    $ gem install convenlu --version "0.5.0" --source "https://rubygems.pkg.github.com/juliocabrera820"
+    $ gem install convenlu --version "0.5.1" --source "https://rubygems.pkg.github.com/juliocabrera820"
 
 ## Usage
 
