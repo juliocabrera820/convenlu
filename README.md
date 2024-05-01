@@ -32,13 +32,13 @@ Add this line to your application's Gemfile:
 
 ```ruby
 source "https://rubygems.pkg.github.com/juliocabrera820" do
-  gem "convenlu", "0.5.1"
+  gem "convenlu", "0.5.2"
 end
 ```
 
 Or install it yourself as:
 
-```gem install convenlu --version "0.5.1" --source "https://rubygems.pkg.github.com/juliocabrera820"```
+```gem install convenlu --version "0.5.2" --source "https://rubygems.pkg.github.com/juliocabrera820"```
 
 ## Usage
 
