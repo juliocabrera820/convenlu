@@ -24,7 +24,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gem push --key github --host https://rubygems.pkg.github.com/juliocabrera820 *.gem
+          gem_file=$(find . -maxdepth 1 -name "*.gem")
+          gem push --key github --host https://rubygems.pkg.github.com/juliocabrera820 $gem_file
 
       - name: Publish to RubyGems
         run: |
