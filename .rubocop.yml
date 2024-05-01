@@ -18,12 +18,6 @@ Style/StringLiteralsInInterpolation:
 Layout/LineLength:
   Max: 120
 
-RSpec/MultipleExpectations:
-  Enabled: false
-
-RSpec/ExampleLength:
-  Max: 30
-
 Style/Documentation:
   Enabled: true
 

@@ -2,9 +2,6 @@ PATH
   remote: .
   specs:
     convenlu (0.5.2)
-      git (~> 1.19.1)
-      tty-prompt (~> 0.23.1)
-      tty-spinner (~> 0.9.3)
 
 GEM
   remote: https://rubygems.org/
@@ -12,7 +9,6 @@ GEM
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
-    diff-lcs (1.5.1)
     git (1.19.1)
       addressable (~> 2.8)
       rchardet (~> 1.8)
@@ -27,23 +23,10 @@ GEM
     public_suffix (5.0.5)
     racc (1.7.3)
     rainbow (3.1.1)
-    rake (10.5.0)
+    rake (13.2.1)
     rchardet (1.8.0)
     regexp_parser (2.9.0)
     rexml (3.2.6)
-    rspec (3.13.0)
-      rspec-core (~> 3.13.0)
-      rspec-expectations (~> 3.13.0)
-      rspec-mocks (~> 3.13.0)
-    rspec-core (3.13.0)
-      rspec-support (~> 3.13.0)
-    rspec-expectations (3.13.0)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.13.0)
-    rspec-mocks (3.13.0)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.13.0)
-    rspec-support (3.13.1)
     rubocop (1.63.4)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
@@ -82,10 +65,12 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.2.33)
   convenlu!
-  rake (~> 10.0)
-  rspec (~> 3.0)
-  rubocop (~> 1.63)
+  git (~> 1.19.1)
+  rake (~> 13.0)
+  rubocop (~> 1.21)
   rubocop-shopify
+  tty-prompt (~> 0.23.1)
+  tty-spinner (~> 0.9.3)
 
 BUNDLED WITH
    2.2.33

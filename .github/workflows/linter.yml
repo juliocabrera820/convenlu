@@ -22,6 +22,6 @@ jobs:
         uses: reviewdog/action-rubocop@v2.3.0
         with:
           rubocop_version: gemfile
-          rubocop_extensions: rubocop-shopify:gemspec
+          rubocop_extensions: rubocop-shopify:gemfile
           reporter: github-pr-check
           level: error
