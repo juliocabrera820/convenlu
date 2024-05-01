@@ -12,26 +12,14 @@ jobs:
       matrix:
         ruby:
           - "3.0.6"
-
     steps:
       - uses: actions/checkout@v3
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
-
-      - name: Publish to GitHub Packages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gem push --key github --host https://rubygems.pkg.github.com/juliocabrera820 *.gem
-
-      - name: Publish to RubyGems
-        run: |
-          mkdir -p $HOME/.gem
-          touch $HOME/.gem/credentials
-          chmod 0600 $HOME/.gem/credentials
-          gem build convenlu.gemspec
-          gem push *.gem
-        env:
-          RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
+      - name: Publish gem to Gh packages and RubyGems
+        uses: dawidd6/action-publish-gem@v1
+        with:
+          api_key: ${{secrets.RUBYGEMS_API_KEY}}
+          github_token: ${{secrets.GITHUB_TOKEN}}
