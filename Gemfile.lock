@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    convenlu (0.5.2)
+    convenlu (0.5.2.1)
 
 GEM
   remote: https://rubygems.org/
