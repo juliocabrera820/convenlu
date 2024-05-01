@@ -1,56 +1,60 @@
 PATH
   remote: .
   specs:
-    convenlu (0.5.1)
-      git (~> 1.8.1)
-      tty-prompt (~> 0.23.0)
+    convenlu (0.5.2)
+      git (~> 1.19.1)
+      tty-prompt (~> 0.23.1)
       tty-spinner (~> 0.9.3)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    diff-lcs (1.4.4)
-    git (1.8.1)
+    addressable (2.8.6)
+      public_suffix (>= 2.0.2, < 6.0)
+    diff-lcs (1.5.1)
+    git (1.19.1)
+      addressable (~> 2.8)
       rchardet (~> 1.8)
     pastel (0.8.0)
       tty-color (~> 0.5)
+    public_suffix (5.0.5)
     rake (10.5.0)
     rchardet (1.8.0)
-    rspec (3.10.0)
-      rspec-core (~> 3.10.0)
-      rspec-expectations (~> 3.10.0)
-      rspec-mocks (~> 3.10.0)
-    rspec-core (3.10.1)
-      rspec-support (~> 3.10.0)
-    rspec-expectations (3.10.1)
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.0)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.10.0)
-    rspec-mocks (3.10.1)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.10.0)
-    rspec-support (3.10.1)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.1)
     tty-color (0.6.0)
     tty-cursor (0.7.1)
-    tty-prompt (0.23.0)
+    tty-prompt (0.23.1)
       pastel (~> 0.8)
       tty-reader (~> 0.8)
     tty-reader (0.9.0)
       tty-cursor (~> 0.7)
       tty-screen (~> 0.8)
       wisper (~> 2.0)
-    tty-screen (0.8.1)
+    tty-screen (0.8.2)
     tty-spinner (0.9.3)
       tty-cursor (~> 0.7)
     wisper (2.0.1)
 
 PLATFORMS
-  ruby
+  arm64-darwin-21
 
 DEPENDENCIES
-  bundler (~> 1.17)
+  bundler (~> 2.2.33)
   convenlu!
   rake (~> 10.0)
   rspec (~> 3.0)
 
 BUNDLED WITH
-   1.17.3
+   2.2.33
