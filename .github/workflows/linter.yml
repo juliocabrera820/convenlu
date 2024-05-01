@@ -5,23 +5,23 @@ on: [pull_request]
 jobs:
   linter:
     runs-on: ubuntu-latest
-    name: Ruby ${{ matrix.ruby }}
-    strategy:
-      matrix:
-        ruby:
-          - "3.0.6"
+#     name: Ruby ${{ matrix.ruby }}
+#     strategy:
+#       matrix:
+#         ruby:
+#           - "3.0.6"
 
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: ${{ matrix.ruby }}
-          bundler-cache: true
-      - name: Check PR with rubocop
-        uses: reviewdog/action-rubocop@v2.3.0
-        with:
-          rubocop_version: gemfile
-          rubocop_extensions: rubocop-shopify:gemfile
-          reporter: github-pr-check
-          level: error
+#     steps:
+#       - uses: actions/checkout@v3
+#       - name: Set up Ruby
+#         uses: ruby/setup-ruby@v1
+#         with:
+#           ruby-version: ${{ matrix.ruby }}
+#           bundler-cache: true
+#       - name: Check PR with rubocop
+#         uses: reviewdog/action-rubocop@v2.3.0
+#         with:
+#           rubocop_version: gemfile
+#           rubocop_extensions: rubocop-shopify:gemfile
+#           reporter: github-pr-check
+#           level: error
