@@ -21,9 +21,4 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 3.0.6'
 
   spec.add_development_dependency 'bundler', '~> 2.2.33'
-  spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec', '~> 3.0'
-  spec.add_runtime_dependency 'git', '~> 1.19.1'
-  spec.add_runtime_dependency 'tty-prompt', '~> 0.23.1'
-  spec.add_runtime_dependency 'tty-spinner', '~> 0.9.3'
 end
