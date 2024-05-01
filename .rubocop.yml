@@ -1,0 +1,31 @@
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0.6
+  Exclude:
+    - 'convenlu.gemspec'
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Layout/LineLength:
+  Max: 120
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Max: 30
+
+Style/Documentation:
+  Enabled: true
+
+Style/DocumentationMethod:
+  Enabled: true

@@ -4,7 +4,7 @@
 [![Languages](https://img.shields.io/github/languages/count/juliocabrera820/convenlu?color=%233D3D4D&style=flat)](#)
 [![Stars](https://img.shields.io/github/stars/juliocabrera820/convenlu?color=233D3D4&style=flat)](https://github.com/juliocabrera820/convenlu/stargazers)
 [![Forks](https://img.shields.io/github/forks/juliocabrera820/convenlu?color=233D3D4&style=flat)](https://github.com/juliocabrera820/convenlu/network/members)
-[![Contributors](https://img.shields.io/github/contributors/juliocabrera820/convenlu?color=233D3D4&style=flat)](https://github.com/juliocabrera820/convenlu/graphs/contributors)
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
 
 Commit message will be formatted based on defined stantards
 
