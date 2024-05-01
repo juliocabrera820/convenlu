@@ -1,4 +1,10 @@
 [![Gem Version](https://badge.fury.io/rb/convenlu.svg)](https://badge.fury.io/rb/convenlu)
+[![License](https://img.shields.io/github/license/juliocabrera820/convenlu?color=233D3D4&style=flat)](https://opensource.org/licenses/MIT)
+[![Author](https://img.shields.io/badge/author-juliocabrera820-3D3D4D?color=233D3D4&style=flat)](https://github.com/juliocabrera820)
+[![Languages](https://img.shields.io/github/languages/count/juliocabrera820/convenlu?color=%233D3D4D&style=flat)](#)
+[![Stars](https://img.shields.io/github/stars/juliocabrera820/convenlu?color=233D3D4&style=flat)](https://github.com/juliocabrera820/convenlu/stargazers)
+[![Forks](https://img.shields.io/github/forks/juliocabrera820/convenlu?color=233D3D4&style=flat)](https://github.com/juliocabrera820/convenlu/network/members)
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
 
 Commit message will be formatted based on defined stantards
 
@@ -14,11 +20,11 @@ gem 'convenlu'
 
 And then execute:
 
-    $ bundle
+```bundle```
 
-Or install it yourself as:
+Or install it globally as:
 
-    $ gem install convenlu
+```gem install convenlu```
 
 ### github packages
 
@@ -26,18 +32,20 @@ Add this line to your application's Gemfile:
 
 ```ruby
 source "https://rubygems.pkg.github.com/juliocabrera820" do
-  gem "convenlu", "0.5.0"
+  gem "convenlu", "0.5.2"
 end
 ```
 
 Or install it yourself as:
 
-    $ gem install convenlu --version "0.5.0" --source "https://rubygems.pkg.github.com/juliocabrera820"
+```gem install convenlu --version "0.5.2" --source "https://rubygems.pkg.github.com/juliocabrera820"```
 
 ## Usage
 
-* Add your files to the staging area by using `git add <FILE>`
-*    $ convenlu
+- Add your files to the staging area by using `git add <FILE>`
+- Run `convenlu`
+
+<p align="left"><img src=".github/docs/images/convenlu.gif" width="650"/></p>
 
 ## Development
 
@@ -47,7 +55,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/juliocabrera820/convenlu
+Bug reports and pull requests are welcome on GitHub at <https://github.com/juliocabrera820/convenlu>
 
 ## License
 

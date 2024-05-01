@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 require 'tty-prompt'
-require 'convenlu/reader'
 require 'convenlu/repository'
+require 'convenlu/standard'
 
 module Convenlu
   class Prompt
@@ -11,7 +11,7 @@ module Convenlu
       commit = prompt.collect do
         response_scope = prompt.yes?('do you want to add a scope?', default: false)
         key(:scope).ask('enter the commit scope') if response_scope
-        key(:type).select('select the commit type', Reader.read_json)
+        key(:type).select('select the commit type', Standard.commit_types)
         key(:title).ask('write a short title', required: true)
         key(:description).ask('provide a longer description', required: true)
         response_footer = prompt.yes?('do you want to add a footer?', default: false)
