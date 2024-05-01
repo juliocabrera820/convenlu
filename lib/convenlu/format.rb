@@ -1,7 +1,7 @@
 module Convenlu
   class Format
     def self.to_plain_text(commit)
-      full_commit = ''
+      full_commit = ""
       full_commit << commit[:type].split(':')[0]
       full_commit << "(#{commit[:scope]})" if commit.key?(:scope)
       full_commit << ": #{commit[:title]}"
