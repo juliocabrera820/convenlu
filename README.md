@@ -20,11 +20,11 @@ gem 'convenlu'
 
 And then execute:
 
-    $ bundle
+```bundle```
 
 Or install it globally as:
 
-    $ gem install convenlu
+```gem install convenlu```
 
 ### github packages
 
@@ -38,16 +38,14 @@ end
 
 Or install it yourself as:
 
-    $ gem install convenlu --version "0.5.1" --source "https://rubygems.pkg.github.com/juliocabrera820"
+```gem install convenlu --version "0.5.1" --source "https://rubygems.pkg.github.com/juliocabrera820"```
 
 ## Usage
 
-* Add your files to the staging area by using `git add <FILE>`
-*    $ convenlu
+- Add your files to the staging area by using `git add <FILE>`
+- Run `convenlu`
 
-<p align="left"> 
-    <img src=".github/docs/images/convenlu.gif" width="650"/>
-</p>
+<p align="left"><img src=".github/docs/images/convenlu.gif" width="650"/></p>
 
 ## Development
 
@@ -57,7 +55,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/juliocabrera820/convenlu
+Bug reports and pull requests are welcome on GitHub at <https://github.com/juliocabrera820/convenlu>
 
 ## License
 
