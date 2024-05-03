@@ -19,7 +19,7 @@ jobs:
         with:
           ruby-version: ${{ matrix.ruby }}
       - name: Publish gem to Gh packages and RubyGems
-        uses: dawidd6/action-publish-gem@v1
+        uses: juliocabrera820/publish-ruby-gem-action@v1
         with:
-          api_key: ${{secrets.RUBYGEMS_API_KEY}}
+          rubygems_api_key: ${{secrets.RUBYGEMS_API_KEY}}
           github_token: ${{secrets.GITHUB_TOKEN}}
